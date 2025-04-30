@@ -9,7 +9,7 @@ const startServer = async () => {
   try {
     await connectMongoDB();
     console.log('connectedToMongoDB')
-    await sequelize.sync(); // Sync PostgreSQL models
+    await sequelize.sync(); 
     app.listen(PORT, () => {
       console.log(`Server running on http://localhost:${PORT}`);
     });

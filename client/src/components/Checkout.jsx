@@ -54,8 +54,8 @@ function Checkout() {
         </button>
       </form>
       {message && <p className="mt-4 text-lg">{message}</p>}
-      {message === 'Order placed successfully!'? <a className='text-blue-500 underline' href='http://localhost:5000/api/orders'>View all orders as Admin</a>: null} <br />
-      {message === 'Order placed successfully!'? <a className='text-blue-500 underline' href={`http://localhost:5000/api/orders/${phone}`}>View this order as Admin</a>: null}
+      {message === 'Order placed successfully!'? <a className='text-blue-500 underline' href='http://localhost:https://mzmeal-1.onrender.com/api/orders'>View all orders as Admin</a>: null} <br />
+      {message === 'Order placed successfully!'? <a className='text-blue-500 underline' href={`http://localhost:https://mzmeal-1.onrender.com/api/orders/${phone}`}>View this order as Admin</a>: null}
     </div>
   );
 }
